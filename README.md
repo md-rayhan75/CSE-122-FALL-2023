@@ -1,2 +1,7 @@
-# CSE-122-FALL-2023
-This is an oop lab Respository
+Name : Md.Rayhan
+
+Id: 22235103089
+
+Intake:51
+
+Section:02
