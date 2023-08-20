@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+class team
+{
+public:
+    int test,g=0,a,b,c;
+    void input ()
+      {
+          cin>>test;
+      }
+      void output()
+      {
+          while(test--)
+            {
+                cin>>a>>b>>c;
+                if(a==1&&b==1||b==1&&c==1||a==1&&c==1)
+                    g++;
+            }
+                cout<<g;
+      }
+};
+int main()
+{
+    team obj;
+    obj.input();
+    obj.output();
+}
