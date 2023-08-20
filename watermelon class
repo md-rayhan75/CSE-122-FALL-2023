@@ -1,0 +1,30 @@
+include<iostream>
+using namespace std;
+class water
+{
+  public:
+      int w;
+      void input ()
+      {
+          cin>>w;
+      }
+      void output()
+      {
+          if(w%2==1)
+    {
+        cout<< "NO"<<endl;
+    }
+    else if(w==2)
+
+        cout<< "NO"<<endl;
+
+        else
+            cout<< "YES";
+      }
+};
+int main()
+{
+    water obj;
+    obj.input();
+    obj.output();
+}
