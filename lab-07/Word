@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string h;
+    cin>>h;
+    long long upper=0,lower=0;
+    for(  long long i=0; i<h.size();i++)
+    {
+        if(h[i]==tolower(h[i]))
+            lower++;
+        else
+        upper++;
+    }
+    if(upper>lower)
+    {
+        for( long long i=0; i<h.size(); i++)
+        {
+            h[i]=toupper(h[i]);
+        }
+    }
+    else
+    {
+        for( long long  i=0; i<h.size(); i++)
+        {
+            h[i]=tolower(h[i]);
+        }
+    }
+    cout<<h<<endl;
+}
